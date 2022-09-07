@@ -1,0 +1,47 @@
+---
+- name: Install CLI tools (in alphabetical order)
+  hosts: all
+  connection: local
+  become: yes
+  vars:
+    command_shell: zsh
+    crictl_version: 1.24.1
+    flux_version: 0.32.0
+    helm_version: 3.9.3
+    rke_version: "v1.3.13"
+    k9s_version: 0.26.3
+    kubectl_version: latest
+    kubectx_version: 0.9.1 # This old version supports multiple entries in KUBECONFIG
+  tasks:
+    - name: Configure compinit for all users
+      ansible.builtin.lineinfile:
+        path: "/etc/zshenv"
+        regexp: "{{ item.regexp }}"
+        line: "{{ item.line }}"
+      with_items:
+        - regexp: "^autoload -Uz compinit"
+          line: "autoload -Uz compinit"
+        - regexp: "^compinit"
+          line: "compinit"
+      when: command_shell | lower == "zsh"
+    - name: "Install crictl"
+      include_role:
+        name: "avnes.crictl"
+    - name: "Install flux"
+      include_role:
+        name: "avnes.flux"
+    - name: "Install helm"
+      include_role:
+        name: "avnes.helm"
+    - name: "Install rke"
+      include_role:
+        name: "avnes.rke"
+    - name: "Install k9s"
+      include_role:
+        name: "avnes.k9s"
+    - name: "Install kubectl"
+      include_role:
+        name: "avnes.kubectl"
+    - name: "Install kubectx"
+      include_role:
+        name: "avnes.kubectx"
