@@ -114,16 +114,15 @@ provider "registry.terraform.io/rancher/rancher2" {
 }
 
 provider "registry.terraform.io/rancher/rke" {
-  version     = "1.3.3"
-  constraints = "~> 1.3.2"
+  version     = "1.4.0"
+  constraints = "~> 1.4.0"
   hashes = [
-    "h1:9pp2fPFP37vYrGcI7mUFUCWaTEk98srHBhyGfO2DdYg=",
-    "zh:28a95e6830d379f4b2b42503012f18883acb7af2ef04e3ea910753fc6274a738",
-    "zh:2c0bd98ff07e8a4be0cee3ebd69e278ac3f949e31daf6548ef565d9cd93bca77",
-    "zh:367423a7332523efed50dd643af7944ee3b9b9573effe008afae4c6ead9310f5",
-    "zh:3c0ab4e1f0be3c6a7171d4cf25140cb1862167bd34496306f9737c458697c594",
-    "zh:ac9a8807eae7033e3cf85e18ff8a78477657d6df883644587b1cbceec0df9418",
-    "zh:c23cc66069070e56095e6345ac660a546fd59f7c3ad1c160528bebb0c48dc08b",
-    "zh:ee9fc03f83b8f05b04b2ff2f023b8285f104dfdb77577142d5c738d01f88430d",
+    "h1:6ZzT5RsEi06ibnm6GA8vqxvBeusslXsICBGRkxEfHSs=",
+    "h1:841hAPB3UU8C9lP0A5icyz533s04Y8XrpsSDhoMWXHw=",
+    "h1:88ouPo62nNK2YW6X5FuHHt+j2VBoyRvzJrX3CMj8ZQo=",
+    "h1:ISi/Qoqypw3mR62j33QeGtrF/Mvgn/YicFNzYSip9Jo=",
+    "h1:bT1Yd6x9+VzVA30jAbtA8DWZGNkbj/x97hoLuv8jG94=",
+    "h1:dQv1+YWSKukq/surL3fpdhXJG/alMHSF6fjKQlkSMRs=",
+    "h1:lD0iwkvOXCJg2PPKzV8L859ZiJpM2qa8diT7UtavsuM=",
   ]
 }
