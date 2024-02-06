@@ -95,21 +95,21 @@ provider "registry.terraform.io/hashicorp/time" {
 }
 
 provider "registry.terraform.io/rancher/rancher2" {
-  version     = "3.2.0"
-  constraints = "~> 3.2.0"
+  version     = "4.0.0"
+  constraints = "~> 4.0.0"
   hashes = [
-    "h1:0Psgq4pIIdaZKdaEW1WYYDqgHl5NH70qvYQZ4dYI+NA=",
-    "h1:1SIHCrGQgX0YqxExUjMDEpp5Q8563yUAi10XIssusfE=",
-    "h1:5KRfRLIj05X7DDpClUwXC+0h1nXJy2Nh4YP/R7GcpJU=",
-    "h1:80KAhuadz5hAVQU4cq7TJhWSnuWQhZix5u1CmFfGtdg=",
-    "h1:I2IsgMp1DBainCkqgyzwuHJ9havJLnmHXFeRwMxRG+w=",
-    "h1:O7i+Q241id4ytq3vOtm1xJDClRvO8lQ4jUK8VCHfwHU=",
-    "h1:U/ESU0NeaCUB3KBq2Dk2mhLIBmVboiGYYGrGCbGcATA=",
-    "h1:WWJz5fExL+FM3HFCcgyITy/GWng+LsECP58cBnSuwBE=",
-    "h1:e3Iari2+YvG1/g0bjq1AdgQdC0CCkSGOg6RwqCJS2Hc=",
-    "h1:itolEEOqvFBGkSFhvevhZ16o6EwQFshumdekwmlK70g=",
-    "h1:mM+miOOdt4QTb44fGxgEIthIeW33Xf7vF+CtGqRHVFM=",
-    "h1:rN8yN59hF0H0PBMJGWMCxJkSorazr+m+7qKw1/Cb8xU=",
+    "h1:5kXAeLzXVt15enolktGIffnt2aPdfTUgIva/mQ0drQk=",
+    "h1:73/09ZEcLw1AhKgU52x5tt8XLywDs9jWdDG2qF3/iL0=",
+    "h1:7s4RUn31x6flmKSkAlFioBycit5DyGdeNr529QN6GVw=",
+    "h1:EhI1jTtu/VwONNzY3Y6V/Y2gWUSNJ4yM4JcLqEBkmFU=",
+    "h1:FXsIi6Ji1WlE4ad9vG9NO41sBeypbxUmE5NEha4gbIk=",
+    "h1:LqTOzoY5F0B1J00/Uyz+yCiWWUbSA2vD4hiO9U1ZmMQ=",
+    "h1:VAYmyTm9vP3Qe5KDtjpk+CtNHCS0gHGJxKXCAjRReJA=",
+    "h1:c2JnDrpj0W5E/LbdUQUhnLr431LfnT0s5yh2M2jrLVs=",
+    "h1:dMDnjub1+uwR6+zKf23A0Ke4ytoj4N9w21Z+Y1kXbj8=",
+    "h1:dwSL0lD07EmFyJyxattGfcr1H8hujr6Enxh5pBt0tpg=",
+    "h1:udnpi7ZmIfd6DwgTgrE0TSxjBBsmiFHPzYecNnplEGU=",
+    "h1:wULG7yWE2Skew/RgVuUCcVcgrV/KZSuvSaJQOy9cF/0=",
   ]
 }
 
